@@ -3,8 +3,12 @@
 Jasmina Avdovikj 153069
 
 2. ![Control Flow Graph](https://github.com/avdovichj/SI_2022_lab2_153069/blob/master/153069_SILab2.png)
+
 3. Ciklomatska kompleksnost na grafot e 7, a do nea dojdov preku formulata koja glasi, M = E - N + 2P. Tuka E pretstavuva broj na rebra, N pretstavuva broj na jazli, a P pretstavuva broj na povrzani komponenti, pa taka M = 29 - 24 + 2*1 = 7
-4. Every statement:
+
+4. ![Every statement](https://github.com/avdovichj/SI_2022_lab2_153069/blob/master/every-statement.png)
+
+Every statement:
 - Test 1: 1, 3, 4, 5, 7, 8, 23 (false = 1, 5, 8)
 - Test 2: 1, 2 (throws exception if 1 is true and stops execution of the function)
 - Test 3: 1, 3, 4, 6 (throws exception if 6 is true and stops execution of the function)
@@ -12,8 +16,9 @@ Jasmina Avdovikj 153069
 - Test 5: 1, 3, 4, 5, 7, 8, 9, 10, 11, 16, 18, 20, 23 (false = 1, 5, 11, 16, 18)
 - Test 6: 1, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 16, 18, 20, 23 (false = 1, 5, 16, 18)
 - Test 7: 1, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 16, 17, 18, 19, 20, 23 (false = 1, 5, 14)
-    
-5.Every branch:
+  
+  
+5. Every branch:
 - Test 1: A, B, D (B is true and throws exception stopping the execution)
 - Test 2: A, B, C, E, F, G (F is true and throws exception stopping the execution)
 - Test 3: A, B, C, E, F, H, I, J, X (J is false and the function returns numMines)
